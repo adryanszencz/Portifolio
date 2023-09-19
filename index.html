@@ -177,13 +177,17 @@
             </div>
             <div class="col d-flex justify-content-center">
                 <div class="flex-column">
-                    <input type="text" placeholder="EMAIL" class="form-control text-white bg-transparent border border-0 border-bottom mb-3 w-100 fs-4" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-                    <input type="text" placeholder="EMAIL" class="form-control text-white bg-transparent border border-0 border-bottom mb-3 w-100 fs-4" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-                    <div class="input-group w-100 h-25" ><textarea class="form-control text-white bg-transparent border border-0 border-bottom mb-3 fs-4" aria-label="With textarea" ></textarea></div>
-                    <br>
-                    <div class="d-flex justify-content-end">
-                        <a href="#" class="text-white border border-0 border-bottom text-decoration-none pt-2">VIEW CODE</a>
-                    </div>
+                        <form class="contact-form" action="https://formsubmit.co/fb710ba914cb948418122a2e9ebfca87" method="POST">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" required placeholder="EMAIL" class="form-control text-white bg-transparent border border-0 border-bottom mb-3 w-100 fs-4" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" required placeholder="EMAIL" class="form-control text-white bg-transparent border border-0 border-bottom mb-3 w-100 fs-4" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                        <label for="message">Mensagem</label>
+                        <div class="input-group w-100 h-25" ><textarea type="text" id="message" name="message" required class="form-control text-white bg-transparent border border-0 border-bottom  fs-4" aria-label="With textarea" ></textarea></div>
+                        <br>
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="text-white bg-transparent border border-0 border-bottom text-decoration-none pt-2">VIEW CODE</button>
+                        </div>
                 </div>
             </div>
         </div>
